@@ -1,1 +1,0 @@
-{{ if isset .Params 1 }}<a href='/glossary#{{ .Get 1 | urlize }}'>{{ .Get 0 }}</a>{{ else }}<a href='/glossary#{{ .Get 0 | urlize }}'>{{ .Get 0 }}</a>{{ end }}
